@@ -3,5 +3,5 @@ docker: Got permission denied while trying to connect to the Docker daemon socke
 See 'docker run --help'.
 
 solution:
-sudo usermod -aG docker username
+sudo usermod -aG docker usernameofmachine
 then restart your machine
